@@ -31,6 +31,6 @@
   * width 设置宽度
   * height 设置高度
   
-* text-align 设置元素内部文字与所有后代元素的位置
+* text-align 设置元素内部文字与**所有**后代元素的位置
  * left/center/right 设置后代元素效果右对齐、居中、与左对齐
 
