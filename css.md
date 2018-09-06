@@ -31,6 +31,14 @@
   * width 设置宽度
   * height 设置高度
   
-* text-align 设置元素内部文字与**所有**后代元素的位置
+* text-align 设置元素内部文字与所有后代元素的位置
  * left/center/right 设置后代元素效果右对齐、居中、与左对齐
 
+* 位置
+ * position设置元素所处位置
+ * abselute：绝对定位，元素跳出原父类元素空间，以上代中出现过position的元素为参照，进行定位【static除外】
+ * relation：相对与原来位置为参考点，元素还在父元素内
+ * static：默认位置
+
+* 浮动
+ * 用来设置本元素的位置
