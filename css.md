@@ -41,7 +41,16 @@
   * static：默认位置
 
 * 浮动
-  * 用来设置本元素的位置
+  * 元素浮动，不再占用父级元素空间，与兄弟元素不在同一层级
+  * float:left/right 左浮，右浮
   
 * 层级
   * z-index 设置元素层级；数量越小，层级越下
+
+* 表格
+  * border-collapse:collapse 表格边框与子边框重合
+  * vertical-align 表格内容垂直排列方式
+  * text-align 文字水平对齐方式
+  
+* 列表
+  * list-style 列表样式，圆点/方块 有序列表为数字/字母
