@@ -35,5 +35,19 @@ ele.innerHTML="XXX";
 
 * 为dom添加事件
 ```
-
+点击事件
+ele.onclick="fun(this)"
+鼠标按下
+ele.onmouseDown
+鼠标弹起
+ele.onmouseup
+鼠标移动到元素上
+ele.onmouseover
+鼠标移出元素
+ele.onmouseout
+元素获取焦点时
+ele.onfocus
+元素失去焦点
+ele.onblur
+当载入网页时
 ```
