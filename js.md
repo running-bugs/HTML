@@ -50,4 +50,55 @@ ele.onfocus
 元素失去焦点
 ele.onblur
 当载入网页时
+... ...
+```
+
+* js定义一个类
+```
+T=function(){
+    this.x; //属性前面的this需要加上
+    this.y;
+    
+    this.run=function(){
+        return ++this.x;
+    };
+}
+
+var postion=new T();
+console.log(position.x);
+```
+
+* js定义一个数组
+```
+var arr=["hello","world","!!!"];
+var arr=new Array("hello","world");
+
+console.log(arr[0]);
+```
+
+* js定义一个方法
+```
+function fun(){
+  ...
+}
+```
+
+* js在某动作t毫秒后执行方法
+```
+function getX(){
+ return 100;
+}
+var timeout=setTimeOut(getX,3000);  //3秒后执行getX()函数 注意! getX 非getX();
+    //stTimeOut(function(){...},3000);
+
+clearTimeOut(timeout);  //中断setTimeOut方法执行
+```
+在某动作后每t毫秒为周期 重复执行方法
+```
+function getX(){
+ return 100;
+}
+var inter=setInterval(getX,3000);  //每3秒执行getX()函数 注意! getX 非getX();
+
+clearInterval(inter);  //中断setInterval方法执行
 ```
