@@ -78,8 +78,13 @@ console.log(arr[0]);
 
 * js定义一个方法
 ```
-function fun(){
+function fun(obj){
   ...
+}
+onclick="fun(this)";
+
+var fun=function(){
+...
 }
 ```
 
