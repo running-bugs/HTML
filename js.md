@@ -1,5 +1,5 @@
 # js常用方法锦集
-
+## [详见js文档](http://www.w3school.com.cn/jsref/index.asp)
 ### DOM
 dom【节点】，将网页看作一棵树状结构，网页将由一个个节点组成；节点一般分为两类：元素节点、内容节点
 
