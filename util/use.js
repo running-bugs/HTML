@@ -27,4 +27,4 @@ var Doc_=function(){
 }
 
 /** 实例化Doc_类 */
-var v=new Doc_();
+var doc=new Doc_();
